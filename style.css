@@ -1,0 +1,119 @@
+main{
+    background-color: rgb(122, 185, 185);
+}
+header{
+    background-color: blue;
+    /* display: inline-block; */
+    /* color: blue; */
+    width: 100%;
+    overflow: auto;
+    margin-top: 0%;
+}
+/* *{ */
+    /* text-align: center; */
+    /* background-color: rgb(95, 77, 196); */
+/* } */
+#paragraph{
+    float: left;
+    margin-right: 70%;
+}
+#bold{
+    /* color: solid black; */
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header-name{
+    float: left;
+    padding: 20px;
+    color: white;
+    font-size: 14;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+ul li{
+    display:inline;
+    margin: 10px;
+    color: white;
+}
+.interests{
+    padding: 5px;
+    border: 3px solid black;
+    width: 25%;
+    font-weight: bold;
+    /* margin-top: 5px; */
+
+}
+main{
+    margin-top: 10px;
+}
+h1{
+    font-style: italic;
+    margin-left: 150px;
+}
+#bio h2{
+    background-color: greenyellow;
+    display: inline;
+    border: 3px solid black;
+    margin-bottom: 50px;
+}
+img{
+    display: block;
+    border-radius: 25px;
+    margin-left: 30%;
+}
+/* #Education{
+} */
+
+h2{
+    background-color: rgb(190, 236, 121);
+    border: 3px solid black;
+    display: inline;
+    margin-bottom: 30px;
+}
+/* #tableEducation{
+    /* display: flex; */
+    /* flex-direction: column ; */
+    /* justify-content: center; */
+    /* margin-left: 38%;
+    margin-top: 15px;
+    margin-bottom: 15px; */
+/* } */ */
+
+#tableheading{
+    background-color: rgb(89, 89, 181);
+
+}
+table, tr, td, th{
+    border-collapse: collapse;
+}
+#interest h2{
+    background-color: rgb(170, 201, 123);
+    display: inline;
+    border: 3px solid black;
+}
+#contactme{
+    /* margin-left: 30%; */
+    width: 40%;
+    background-color: antiquewhite;
+    /* border: 2px solid black; */
+    text-align: center;
+    border-radius: 50px;
+
+    /* padding-right: 200px; */
+}
+footer{
+    /* float: left; */
+    padding: 20px;
+    color: white;
+    font-size: 14;
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
